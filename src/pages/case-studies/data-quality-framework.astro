@@ -1,0 +1,180 @@
+---
+import Layout from '../../layouts/Layout.astro';
+---
+
+<Layout title="Enterprise Data Quality Framework | Case Study">
+	<article class="case-study-page">
+		<header class="cs-hero container section-padding">
+			<a href="/#case-studies" class="back-link">&larr; Back to Case Studies</a>
+			<span class="category">Data Governance & Quality</span>
+			<h1 class="text-gradient">Enterprise Data Quality Framework</h1>
+			<p class="cs-subtitle">Building trust through rigorous governance and transparent data lineage.</p>
+		</header>
+
+		<div class="cs-image-banner">
+			<img src="/images/project_dataquality.png" alt="Data Quality Framework" />
+		</div>
+
+		<section class="container section-padding cs-content">
+			<div class="content-grid">
+				<div class="main-body">
+					<h2 class="gold-accent">The Challenge</h2>
+					<p>
+						In complex enterprise environments, the lack of rigorous data validation and clear lineage often leads to a deficit of trust. Downstream users, from analysts to C-suite executives, struggle to rely on Business Intelligence reporting when the underlying data governance is weak or non-existent.
+					</p>
+
+					<h2 class="gold-accent">The Solution</h2>
+					<p>
+						I championed comprehensive data governance and validation frameworks across the enterprise architecture. By integrating Medallion architecture principles and adhering strictly to best practices in metadata management, I established robust validation checks at every stage of the ETL pipeline. Furthermore, I created transparent documentation and intricate data flow diagrams to map exact data lineage.
+					</p>
+
+					<h2 class="gold-accent">The Impact</h2>
+					<p>
+						The implementation of this enterprise-wide quality framework fundamentally transformed how data is consumed. It fostered a strong culture of data-driven decision-making by significantly enhancing trust and compliance. Ultimately, this governance allowed the business to safely scale its managed self-service Business Intelligence capabilities without compromising data integrity.
+					</p>
+				</div>
+				<aside class="cs-sidebar glass">
+					<h3>Expertise</h3>
+					<ul>
+						<li>Data Governance</li>
+						<li>Medallion Architecture</li>
+						<li>Metadata Management</li>
+						<li>Data Lineage Mapping</li>
+						<li>Validation Frameworks</li>
+					</ul>
+					<h3>Focus Area</h3>
+					<p>Enterprise Data Architecture</p>
+				</aside>
+			</div>
+		</section>
+	</article>
+</Layout>
+
+<style>
+	.case-study-page {
+		min-height: 100vh;
+	}
+
+	.cs-hero {
+		padding-bottom: 4rem;
+		text-align: center;
+		max-width: 900px;
+	}
+
+	.back-link {
+		display: inline-block;
+		margin-bottom: 2rem;
+		color: var(--text-secondary);
+		font-weight: 500;
+		text-transform: uppercase;
+		letter-spacing: 0.1em;
+		font-size: 0.85rem;
+	}
+
+	.back-link:hover {
+		color: var(--accent-gold);
+	}
+
+	.category {
+		display: block;
+		color: var(--accent-gold);
+		font-weight: 600;
+		text-transform: uppercase;
+		letter-spacing: 0.1em;
+		margin-bottom: 1rem;
+		font-size: 0.9rem;
+	}
+
+	h1 {
+		font-size: clamp(2.5rem, 5vw, 4rem);
+		margin-bottom: 1.5rem;
+	}
+
+	.cs-subtitle {
+		font-size: 1.25rem;
+		color: var(--text-secondary);
+	}
+
+	.cs-image-banner {
+		width: 100%;
+		max-height: 60vh;
+		overflow: hidden;
+		border-top: 1px solid var(--glass-border);
+		border-bottom: 1px solid var(--glass-border);
+	}
+
+	.cs-image-banner img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		display: block;
+	}
+
+	.content-grid {
+		display: grid;
+		grid-template-columns: 2fr 1fr;
+		gap: 4rem;
+	}
+
+	.main-body h2 {
+		font-size: 2rem;
+		margin-top: 3rem;
+		margin-bottom: 1rem;
+	}
+
+	.main-body h2:first-child {
+		margin-top: 0;
+	}
+
+	.main-body p {
+		font-size: 1.1rem;
+		color: var(--text-secondary);
+		margin-bottom: 1.5rem;
+	}
+
+	.cs-sidebar {
+		padding: 2.5rem;
+		border-radius: 1rem;
+		height: fit-content;
+		position: sticky;
+		top: 120px;
+	}
+
+	.cs-sidebar h3 {
+		font-size: 1.2rem;
+		margin-bottom: 1rem;
+		color: var(--text-primary);
+	}
+
+	.cs-sidebar ul {
+		list-style: none;
+		margin-bottom: 2.5rem;
+	}
+
+	.cs-sidebar ul li {
+		color: var(--text-secondary);
+		margin-bottom: 0.5rem;
+		padding-left: 1.5rem;
+		position: relative;
+	}
+
+	.cs-sidebar ul li::before {
+		content: '▹';
+		color: var(--accent-gold);
+		position: absolute;
+		left: 0;
+	}
+
+	.cs-sidebar p {
+		color: var(--text-secondary);
+	}
+
+	@media (max-width: 992px) {
+		.content-grid {
+			grid-template-columns: 1fr;
+		}
+		.cs-sidebar {
+			position: static;
+		}
+	}
+</style>

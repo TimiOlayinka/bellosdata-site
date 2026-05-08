@@ -1,0 +1,57 @@
+﻿Timi Olayinka
+ Manchester, UK |07947 686389 |TimiOlayinka50@gmail.com  www.linkedin.com/in/timi-olayinka-8b299392
+Enterprise Data Architect
+Experienced Data Architect with over 5 years of translating business requirements into effective data solutions across analytics, warehousing, and engineering domains. I specialise in designing comprehensive end-to-end data flows that transform raw data into actionable insights for business intelligence, while maintaining rigorous data quality and integrity standards throughout the entire process. My expertise spans the complete data lifecycle, ensuring seamless integration between technical implementation and strategic business outcomes.
+CDMP Certified û Member of DAMA UK | TOGAF 9 (Ongoing)
+AWS Certified Data Engineer & Solution Architect
+SKILLSSKILLS
+SKILLS
+SKILLS
+Data Modelling / Erwin 
+Enterprise Architecture
+GCP & AWS
+Data Architecture & Design
+Cloud Data Warehousing
+SQL & Python
+Data Management
+Big Data & Analytics
+NoSQL Databases
+Professional ExperienceProfessional Experience
+Professional Experience
+Professional Experience
+Data Warehouse Engineer
+Holland and Barrett (Remote)June 2024 û Ongoing
+Scalable Data Architecture: Hands-on ETL data processing and data modelling of raw data into the enterprise Redshift Data Warehouse, leveraging Kimball methodology and Medallion architecture principles to ensure high data quality, interoperability, and traceability across Raw, Operational, and Application layers.
+Big Data: Advanced SQL data modelling expertise across diverse database systems and structured/unstructured data sources to establish an enterprise-wide single source of truth. Designed comprehensive data integration strategies that consolidate disparate data assets into unified Enterprise Data Warehouse architectures for strategic business intelligence and analytics.
+Data Quality & Governance: Championed rigorous data governance and validation frameworks & principles, aligning with best practices in metadata management and data lineage to support both compliance and managed self-service Business Intelligence. Proactively created transparent documentation and data flow diagrams to enhance trust and self-service for downstream users.
+Continuous Optimisation & Automation: Leveraged a continuous improvement mindset to automate key pipelines, optimise ETL/ELT processes, and promote a culture of data-driven decision-making, delivering tangible efficiency gains, reduced manual overhead, and more robust, future-ready data foundations.
+Gathering Business Requirement: Acted as a bridge between technical teams, domain experts, and business stakeholders, translating complex requirements into actionable data architecture. Drove the alignment of data initiatives with organisational BI and digital transformation strategies.
+Timi Olayinka
+Data Engineer
+Boohoo Group û Manchester, UKOct 2022 û May 2024
+Scalable Data Architecture: Designed and developed end-to-end data pipelines that extract, transform, and load information from multiple databases and supply chain systems into Google BigQuery, creating scalable and flexible data pipelines that supported future growth and integration needs.
+Enabled Seamless Data Interoperability: Drove secure data exchange and collaboration with external partners via APIs and SFTP, ensuring seamless, standards-based data integration critical for high-quality data integration and interoperability.
+Cloud Data Warehouse Modernisation: Played a key role in migrating legacy operational data warehouses (SQL Server, Oracle) to Google Cloud Platform, architecting cloud-native solutions, optimising historical data migration, and enabling continuous analytics for enterprise reporting.
+Real-Time & Batch Data Integration: Engineered advanced ETL solutions for both batch and near real-time data ingestion, dramatically enhancing data quality, velocity, and availability for operational intelligence and analytics.
+Analytics Engineer
+The Hut Group û Manchester, UKSept 2021 û Oct 2022
+Data Architecture: Developed robust ETL pipelines to unify data from diverse sources, including AI-powered warehouse systems (THG Ingenuity Fulfil), into a centralised Data Vault, driving data connectivity and operational intelligence for global B2C logistics.
+Business Application Data Modelling: Leveraged advanced SQL techniques to collect, cleanse, and model structured and unstructured data in a fast-paced environment, delivering accurate datasets and comprehensive Tableau reports for C-suite stakeholders to support key business and digital transformation initiatives.
+Insights Coordinator
+Bidstack Group û London, UKJan 2021 û Sept 2021
+Education & CredentialsEducation & Credentials
+Education & Credentials
+Education & Credentials
+MSc in Digital Marketing, 2019-2020
+Kent Business School, University of Kent (Distinction)
+BA in Business and Management, 2015-2019
+Kent Business School, University of Kent
+Certifications:Certified CDMP - Associate
+AWS Certified Data Engineer - Associate
+AWS Certified Solution Architect - Associate
+PCAP-31-03 - Associate in Python Programming 
+IBM Databases and SQL for Data Science with Python
+Computer & Web Knowledge/Skills: 
+AWS; Redshift; S3; GCP; BigQuery; Extract Trasform Load (ETL); Conceptual Data Modelling; Logical Data Modelling; Physical Data Modelling; Proficient Python Programming; Object-Oriented Programming (OOP); SQL; CI/CD Pipelines; Docker; Data Visualization (PowerBi, Cognos, Tableau & Looker); SSIS; Github / Gitlab; Docker
+Reference
+Available on request

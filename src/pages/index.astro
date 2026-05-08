@@ -1,0 +1,277 @@
+---
+import Layout from '../layouts/Layout.astro';
+import ServiceCard from '../components/ServiceCard.astro';
+import ProjectCard from '../components/ProjectCard.astro';
+---
+
+<Layout title="Analytics Engineered for Growth">
+	<section class="hero container section-padding">
+		<div class="hero-grid">
+			<div class="hero-content">
+				<span class="badge">Enterprise Data Solutions</span>
+				<h1 class="text-gradient">Analytics Engineered for <br/><span class="gold-accent">Growth.</span></h1>
+				<p class="hero-subtitle">
+					BellosData builds scalable data infrastructure, robust data warehouses, and automated pipelines that empower your business to move faster and smarter.
+				</p>
+				<div class="hero-actions">
+					<a href="#services" class="btn-main">View Services</a>
+					<a href="#about" class="btn-secondary">The Approach</a>
+				</div>
+			</div>
+			<div class="hero-image">
+				<img src="/images/bellosdata_hero.png" alt="BellosData - Analytics Engineered for Growth" />
+			</div>
+		</div>
+	</section>
+
+	<section id="about" class="container section-padding">
+		<div class="about-grid">
+			<div class="about-text">
+				<h2 class="gold-accent">Precision Infrastructure.</h2>
+				<p>
+					In a world of complex data landscapes, we focus on the foundational engineering that drives true business value. Every pipeline is monitored, every warehouse is optimized, and every dashboard is engineered with precision to provide a single source of truth.
+				</p>
+			</div>
+			<div class="glass stats-box">
+				<div class="stat">
+					<span class="stat-num">10x</span>
+					<span class="stat-label">Faster Query Performance</span>
+				</div>
+				<div class="stat">
+					<span class="stat-num">99.9%</span>
+					<span class="stat-label">Data Pipeline Uptime</span>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="services" class="container section-padding">
+		<div class="section-header">
+			<h2 class="text-gradient">Core Services</h2>
+			<a href="mailto:contact@bellosdata.co.uk" class="gold-accent">Let's Talk &rarr;</a>
+		</div>
+		<div class="services-grid">
+			<ServiceCard 
+				title="Cloud Data Warehousing" 
+				description="Design and migration to modern cloud data warehouses like Snowflake, BigQuery, and Redshift. We build scalable, cost-effective architectures." 
+				icon="🏗️" 
+			/>
+			<ServiceCard 
+				title="Pipeline Automation" 
+				description="Robust, automated ETL/ELT data pipelines using modern tools like dbt, Airflow, and Fivetran to ensure your data is always fresh and accurate." 
+				icon="⚡" 
+			/>
+			<ServiceCard 
+				title="Business Intelligence" 
+				description="Premium reporting solutions and interactive dashboards that turn complex datasets into actionable insights for stakeholders." 
+				icon="📊" 
+			/>
+			<ServiceCard 
+				title="Data Governance & Quality" 
+				description="Implementation of Medallion Architectures and comprehensive data quality checks so you can trust your data." 
+				icon="🛡️" 
+			/>
+			<ServiceCard 
+				title="Data Migration" 
+				description="Seamlessly and securely transition your legacy systems to modern cloud infrastructure with zero data loss and minimal downtime." 
+				icon="🔄" 
+			/>
+			<ServiceCard 
+				title="Metadata Management" 
+				description="Organize, catalog, and document your data assets so your team can easily discover, understand, and trust the information they use." 
+				icon="🗂️" 
+			/>
+		</div>
+	</section>
+
+	<section id="case-studies" class="container section-padding">
+		<div class="section-header">
+			<h2 class="text-gradient">Case Studies</h2>
+			<a href="#case-studies" class="gold-accent">View All &rarr;</a>
+		</div>
+		<div class="projects-grid">
+			<ProjectCard 
+				title="Redshift Data Warehouse Modernisation" 
+				category="Enterprise Data Architecture" 
+				image="/images/project_redshift.png" 
+				link="/case-studies/redshift-modernisation" 
+			/>
+			<ProjectCard 
+				title="GCP Modernisation & Real-Time Pipelines" 
+				category="Cloud Migration & Data Engineering" 
+				image="/images/project_gcp.png" 
+				link="/case-studies/gcp-pipelines" 
+			/>
+			<ProjectCard 
+				title="Global Logistics Analytics Ecosystem" 
+				category="Analytics Engineering" 
+				image="/images/project_datavault.png" 
+				link="/case-studies/logistics-ecosystem" 
+			/>
+			<ProjectCard 
+				title="Enterprise Data Quality Framework" 
+				category="Data Governance & Quality" 
+				image="/images/project_dataquality.png" 
+				link="/case-studies/data-quality-framework" 
+			/>
+		</div>
+	</section>
+</Layout>
+
+<style>
+	.hero {
+		min-height: 80vh;
+		display: flex;
+		align-items: center;
+	}
+
+	.hero-grid {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 4rem;
+		align-items: center;
+		width: 100%;
+	}
+
+	.hero-content {
+		max-width: 800px;
+	}
+
+	.hero-image img {
+		width: 100%;
+		height: auto;
+		border-radius: 1rem;
+		border: 1px solid var(--glass-border);
+		box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+	}
+
+	.badge {
+		display: inline-block;
+		padding: 0.4rem 1rem;
+		background: var(--accent-gold-soft);
+		color: var(--accent-gold);
+		border-radius: 2rem;
+		font-size: 0.8rem;
+		font-weight: 600;
+		text-transform: uppercase;
+		letter-spacing: 0.1em;
+		margin-bottom: 2rem;
+	}
+
+	h1 {
+		font-size: clamp(3rem, 6vw, 4.5rem);
+		margin-bottom: 2rem;
+	}
+
+	.hero-subtitle {
+		font-size: 1.25rem;
+		color: var(--text-secondary);
+		margin-bottom: 3rem;
+		max-width: 600px;
+	}
+
+	.hero-actions {
+		display: flex;
+		gap: 1.5rem;
+	}
+
+	.btn-main {
+		padding: 1rem 2rem;
+		background: var(--accent-gold);
+		color: var(--bg-color);
+		font-weight: 700;
+		border-radius: 0.5rem;
+	}
+
+	.btn-secondary {
+		padding: 1rem 2rem;
+		border: 1px solid var(--glass-border);
+		color: var(--text-primary);
+		font-weight: 600;
+		border-radius: 0.5rem;
+	}
+
+	.btn-secondary:hover {
+		background: var(--glass-bg);
+	}
+
+	.about-grid {
+		display: grid;
+		grid-template-columns: 1.5fr 1fr;
+		gap: 4rem;
+		align-items: center;
+	}
+
+	.about-text h2 {
+		font-size: 3rem;
+		margin-bottom: 1.5rem;
+	}
+
+	.about-text p {
+		font-size: 1.2rem;
+		color: var(--text-secondary);
+	}
+
+	.stats-box {
+		padding: 3rem;
+		display: grid;
+		grid-template-columns: 1fr;
+		gap: 2rem;
+		border-radius: 1rem;
+	}
+
+	.section-header {
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-end;
+		margin-bottom: 4rem;
+	}
+
+	.section-header h2 {
+		font-size: 3rem;
+		margin: 0;
+	}
+
+	.services-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+		gap: 2.5rem;
+	}
+
+	.projects-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+		gap: 2.5rem;
+	}
+
+	.stat-num {
+		display: block;
+		font-size: 2.5rem;
+		font-weight: 800;
+		font-family: var(--font-heading);
+		color: var(--accent-gold);
+	}
+
+	.stat-label {
+		font-size: 0.9rem;
+		color: var(--text-secondary);
+		text-transform: uppercase;
+		letter-spacing: 0.1em;
+	}
+
+	@media (max-width: 992px) {
+		.hero-grid {
+			grid-template-columns: 1fr;
+			gap: 3rem;
+		}
+		.about-grid {
+			grid-template-columns: 1fr;
+		}
+	}
+
+	@media (max-width: 768px) {
+		.hero-actions {
+			flex-direction: column;
+		}
+	}
+</style>

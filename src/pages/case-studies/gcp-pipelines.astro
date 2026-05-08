@@ -1,0 +1,180 @@
+---
+import Layout from '../../layouts/Layout.astro';
+---
+
+<Layout title="GCP Modernisation & Real-Time Pipelines | Case Study">
+	<article class="case-study-page">
+		<header class="cs-hero container section-padding">
+			<a href="/#case-studies" class="back-link">&larr; Back to Case Studies</a>
+			<span class="category">Cloud Migration & Data Engineering</span>
+			<h1 class="text-gradient">GCP Modernisation & Real-Time Pipelines</h1>
+			<p class="cs-subtitle">Migrating legacy operational databases to a scalable, cloud-native architecture.</p>
+		</header>
+
+		<div class="cs-image-banner">
+			<img src="/images/project_gcp.png" alt="GCP Pipeline Architecture" />
+		</div>
+
+		<section class="container section-padding cs-content">
+			<div class="content-grid">
+				<div class="main-body">
+					<h2 class="gold-accent">The Challenge</h2>
+					<p>
+						Legacy operational data warehouses operating on SQL Server and Oracle were struggling to scale and deliver timely insights critical for fast-paced supply chain operations. The infrastructure needed a complete overhaul to support advanced analytics, real-time data ingestion, and seamless data exchange with external partners.
+					</p>
+
+					<h2 class="gold-accent">The Solution</h2>
+					<p>
+						I architected and executed a comprehensive cloud-native migration to Google Cloud Platform, anchoring the new enterprise reporting environment on BigQuery. This transition involved engineering advanced ETL solutions capable of handling both batch and near real-time data ingestion. To ensure seamless interoperability, I designed secure data exchange pipelines using APIs and SFTP protocols.
+					</p>
+
+					<h2 class="gold-accent">The Impact</h2>
+					<p>
+						The migration to GCP dramatically enhanced data quality, velocity, and availability. By centralising information from multiple databases and supply chain systems into BigQuery, we created scalable and flexible data pipelines that not only solved immediate operational bottlenecks but also future-proofed the enterprise for continued growth and advanced analytics integration.
+					</p>
+				</div>
+				<aside class="cs-sidebar glass">
+					<h3>Technologies</h3>
+					<ul>
+						<li>Google Cloud Platform (GCP)</li>
+						<li>Google BigQuery</li>
+						<li>SQL Server & Oracle Migration</li>
+						<li>Real-time & Batch ETL</li>
+						<li>APIs & SFTP Integration</li>
+					</ul>
+					<h3>Role</h3>
+					<p>Data Engineer</p>
+				</aside>
+			</div>
+		</section>
+	</article>
+</Layout>
+
+<style>
+	.case-study-page {
+		min-height: 100vh;
+	}
+
+	.cs-hero {
+		padding-bottom: 4rem;
+		text-align: center;
+		max-width: 900px;
+	}
+
+	.back-link {
+		display: inline-block;
+		margin-bottom: 2rem;
+		color: var(--text-secondary);
+		font-weight: 500;
+		text-transform: uppercase;
+		letter-spacing: 0.1em;
+		font-size: 0.85rem;
+	}
+
+	.back-link:hover {
+		color: var(--accent-gold);
+	}
+
+	.category {
+		display: block;
+		color: var(--accent-gold);
+		font-weight: 600;
+		text-transform: uppercase;
+		letter-spacing: 0.1em;
+		margin-bottom: 1rem;
+		font-size: 0.9rem;
+	}
+
+	h1 {
+		font-size: clamp(2.5rem, 5vw, 4rem);
+		margin-bottom: 1.5rem;
+	}
+
+	.cs-subtitle {
+		font-size: 1.25rem;
+		color: var(--text-secondary);
+	}
+
+	.cs-image-banner {
+		width: 100%;
+		max-height: 60vh;
+		overflow: hidden;
+		border-top: 1px solid var(--glass-border);
+		border-bottom: 1px solid var(--glass-border);
+	}
+
+	.cs-image-banner img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		display: block;
+	}
+
+	.content-grid {
+		display: grid;
+		grid-template-columns: 2fr 1fr;
+		gap: 4rem;
+	}
+
+	.main-body h2 {
+		font-size: 2rem;
+		margin-top: 3rem;
+		margin-bottom: 1rem;
+	}
+
+	.main-body h2:first-child {
+		margin-top: 0;
+	}
+
+	.main-body p {
+		font-size: 1.1rem;
+		color: var(--text-secondary);
+		margin-bottom: 1.5rem;
+	}
+
+	.cs-sidebar {
+		padding: 2.5rem;
+		border-radius: 1rem;
+		height: fit-content;
+		position: sticky;
+		top: 120px;
+	}
+
+	.cs-sidebar h3 {
+		font-size: 1.2rem;
+		margin-bottom: 1rem;
+		color: var(--text-primary);
+	}
+
+	.cs-sidebar ul {
+		list-style: none;
+		margin-bottom: 2.5rem;
+	}
+
+	.cs-sidebar ul li {
+		color: var(--text-secondary);
+		margin-bottom: 0.5rem;
+		padding-left: 1.5rem;
+		position: relative;
+	}
+
+	.cs-sidebar ul li::before {
+		content: '▹';
+		color: var(--accent-gold);
+		position: absolute;
+		left: 0;
+	}
+
+	.cs-sidebar p {
+		color: var(--text-secondary);
+	}
+
+	@media (max-width: 992px) {
+		.content-grid {
+			grid-template-columns: 1fr;
+		}
+		.cs-sidebar {
+			position: static;
+		}
+	}
+</style>
